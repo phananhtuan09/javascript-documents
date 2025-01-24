@@ -116,6 +116,7 @@
 ## Số học và Math
 
 * [Ôn lại kiến thức đã học về số](so-hoc-va-math/on-lai-kien-thuc-da-hoc-ve-so.md)
+* [Tìm hiểu về giá trị Infinity](so-hoc-va-math/tim-hieu-ve-gia-tri-infinity.md)
 
 ## Nâng cao
 
