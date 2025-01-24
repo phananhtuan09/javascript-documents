@@ -113,6 +113,10 @@
 * [Tìm hiểu bảng mã ký tự ASCII](xu-ly-chuoi/tim-hieu-bang-ma-ky-tu-ascii.md)
 * [Tìm hiểu các bảng mã Unicode](xu-ly-chuoi/tim-hieu-cac-bang-ma-unicode.md)
 
+## Số học và Math
+
+* [Ôn lại kiến thức đã học về số](so-hoc-va-math/on-lai-kien-thuc-da-hoc-ve-so.md)
+
 ## Nâng cao
 
 * [Thứ tự thực thi trong JavaScript](nang-cao/thu-tu-thuc-thi-trong-javascript.md)
