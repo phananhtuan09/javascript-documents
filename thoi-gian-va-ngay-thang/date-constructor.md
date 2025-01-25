@@ -44,6 +44,7 @@ new Date()
 * dateString
   * Một chuỗi đại diện cho ngày tháng, được phân tích và diễn giải bằng thuật toán tương tự như **Date.parse()**
   * Ví dụ: `new Date("2022-03-25")`
+  * Nên sử dụng định dạng ISO 8601 để đảm bảo truyền giá trị chính xác
 
 #### dateObject
 
@@ -86,3 +87,40 @@ Tương tự, nếu bất kỳ tham số nào bị thiếu, nó sẽ "mượn" t
 Khi gọi **new Date()** (hàm khởi tạo **Date()**) sẽ trả về một đối tượng Date. Nếu gọi với chuỗi ngày không hợp lệ, hoặc nếu ngày được tạo ra có timestamp nhỏ hơn -8,640,000,000,000,000 hoặc lớn hơn 8,640,000,000,000,000 mili-giây, nó sẽ trả về một ngày không hợp lệ (một đối tượng Date mà phương thức **toString()** trả về `"Invalid Date"` và phương thức **valueOf()** trả về `NaN`).
 
 Khi gọi hàm **Date()** (không dùng từ khóa `new`), nó sẽ trả về một chuỗi đại diện cho ngày và giờ hiện tại, giống hệt như **new Date().toString()**. Mọi tham số được truyền vào khi gọi hàm **Date()** (không có `new`) đều bị bỏ qua. Dù được gọi với chuỗi ngày không hợp lệ hay bất kỳ giá trị tùy ý nào, nó vẫn trả về chuỗi đại diện cho ngày và giờ hiện tại.
+
+***
+
+### Cách các kiểm tra Date object hợp lệ
+
+Ví du:
+
+```javascript
+let date = new Date("10:20 21/1/2025") // Invalid Date
+```
+
+#### Sử dụng hàm isNaN để kiếm tra
+
+```javascript
+isNaN(date) // true
+```
+
+* Một Date object không hợp lệ khi ép kiểu sang số sẽ có giá trị `NaN` nên nếu hàm isNaN trả về true tức là Date object không hợp lệ
+
+#### Sử dụng hàm toString
+
+```javascript
+date.toString() === 'Invalid Date' // true
+```
+
+* Một Date object không hợp lệ khi ép kiểu sang string sẽ nhận được chuỗi "Invalid Date"
+
+
+
+
+
+
+
+
+
+
+
