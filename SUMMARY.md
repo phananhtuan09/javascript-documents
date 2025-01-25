@@ -122,6 +122,7 @@
 
 * [Hàm Date, Timestamp và ISO 8601](thoi-gian-va-ngay-thang/ham-date-timestamp-va-iso-8601.md)
 * [Date() constructor](thoi-gian-va-ngay-thang/date-constructor.md)
+* [Phương thức getTime, getTimezoneOffset](thoi-gian-va-ngay-thang/phuong-thuc-gettime-gettimezoneoffset.md)
 
 ## Nâng cao
 
