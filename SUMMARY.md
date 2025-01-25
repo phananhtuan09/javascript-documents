@@ -118,6 +118,10 @@
 * [Ôn lại kiến thức đã học về số](so-hoc-va-math/on-lai-kien-thuc-da-hoc-ve-so.md)
 * [Tìm hiểu về giá trị Infinity](so-hoc-va-math/tim-hieu-ve-gia-tri-infinity.md)
 
+## Thời gian và Ngày tháng
+
+* [Hàm Date, Timestamp và ISO 8601](thoi-gian-va-ngay-thang/ham-date-timestamp-va-iso-8601.md)
+
 ## Nâng cao
 
 * [Thứ tự thực thi trong JavaScript](nang-cao/thu-tu-thuc-thi-trong-javascript.md)
