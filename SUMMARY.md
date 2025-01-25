@@ -121,6 +121,7 @@
 ## Thời gian và Ngày tháng
 
 * [Hàm Date, Timestamp và ISO 8601](thoi-gian-va-ngay-thang/ham-date-timestamp-va-iso-8601.md)
+* [Date() constructor](thoi-gian-va-ngay-thang/date-constructor.md)
 
 ## Nâng cao
 
