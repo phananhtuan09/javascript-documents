@@ -125,6 +125,10 @@
 * [Phương thức getTime, getTimezoneOffset](thoi-gian-va-ngay-thang/phuong-thuc-gettime-gettimezoneoffset.md)
 * [Chuyển đổi object Date sang chuỗi ](thoi-gian-va-ngay-thang/chuyen-doi-object-date-sang-chuoi.md)
 
+## Làm việc với DOM
+
+* [Tìm hiểu sơ bộ về DOM](lam-viec-voi-dom/tim-hieu-so-bo-ve-dom.md)
+
 ## Nâng cao
 
 * [Thứ tự thực thi trong JavaScript](nang-cao/thu-tu-thuc-thi-trong-javascript.md)
