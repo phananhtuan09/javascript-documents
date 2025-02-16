@@ -129,6 +129,8 @@
 
 * [Tìm hiểu sơ bộ về DOM](lam-viec-voi-dom/tim-hieu-so-bo-ve-dom.md)
 * [getElementById](lam-viec-voi-dom/getelementbyid.md)
+* [getElementsByClassName](lam-viec-voi-dom/getelementsbyclassname.md)
+* [getElementsByTagName](lam-viec-voi-dom/getelementsbytagname.md)
 
 ## Nâng cao
 
