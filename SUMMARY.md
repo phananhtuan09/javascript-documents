@@ -128,6 +128,7 @@
 ## Làm việc với DOM
 
 * [Tìm hiểu sơ bộ về DOM](lam-viec-voi-dom/tim-hieu-so-bo-ve-dom.md)
+* [getElementById](lam-viec-voi-dom/getelementbyid.md)
 
 ## Nâng cao
 
