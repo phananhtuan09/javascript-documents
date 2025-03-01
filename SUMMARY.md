@@ -131,6 +131,8 @@
 * [getElementById](lam-viec-voi-dom/getelementbyid.md)
 * [getElementsByClassName](lam-viec-voi-dom/getelementsbyclassname.md)
 * [getElementsByTagName](lam-viec-voi-dom/getelementsbytagname.md)
+* [querySelector](lam-viec-voi-dom/queryselector.md)
+* [querySelectorAll](lam-viec-voi-dom/queryselectorall.md)
 
 ## Nâng cao
 
